@@ -1,0 +1,50 @@
+fun main() {
+    val todoList = mutableListOf<String>()
+
+    while (true) {
+        println("\n--- To-Do List ---")
+        println("1. Task Add karo")
+        println("2. Task Dekho")
+        println("3. Task Delete karo")
+        println("4. Exit")
+
+        print("Option chuno: ")
+        when (readLine()?.toIntOrNull()) {
+            1 -> {
+                print("Task likho: ")
+                val task = readLine()
+                if (!task.isNullOrBlank()) {
+                    todoList.add(task)
+                    println("Task add ho gaya!")
+                } else {
+                    println("Task empty nahi ho sakta.")
+                }
+            }
+            2 -> {
+                if (todoList.isEmpty()) {
+                    println("Koi task nahi hai!")
+                } else {
+                    println("\n--- Tasks ---")
+                    todoList.forEachIndexed { index, task ->
+                        println("${index + 1}. $task")
+                    }
+                }
+            }
+            3 -> {
+                print("Kaunsa task delete karna hai (Number do): ")
+                val index = readLine()?.toIntOrNull()
+                if (index != null && index in 1..todoList.size) {
+                    todoList.removeAt(index - 1)
+                    println("Task delete ho gaya!")
+                } else {
+                    println("Invalid task number!")
+                }
+            }
+            4 -> {
+                println("Bye!")
+                break
+            }
+            else -> println("Invalid option!")
+        }
+    }
+}
