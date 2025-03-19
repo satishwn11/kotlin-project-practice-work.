@@ -1,0 +1,14 @@
+// 8. Palindrome Checker (Functions Practice)
+fun main() {
+  val input = "12madam21"
+  println(isPalindrome(input))
+}
+
+fun isPalindrome(input: String): Any {
+    val rvoutput = input.reversed()
+    if(rvoutput == input) {
+      return "$input is Palindrome"
+    } else {
+      return "$input is not a palinrome"
+    }
+}
