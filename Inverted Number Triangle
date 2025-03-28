@@ -1,0 +1,14 @@
+fun main() {
+  var i = 1
+   while (i <= 5) {
+    var j = 5
+    var k = 1
+    while (j >= i) {
+      print("$k  ")
+      k++
+      j--
+    }
+    println()
+    i++
+   }
+}
