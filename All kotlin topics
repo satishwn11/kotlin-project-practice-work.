@@ -1,0 +1,55 @@
+-> Basic coding <-
+//1.Hello world, print //
+//2.var and val  //
+//3.Data types //
+//4.Operators ->(i)Arithmetic Operators, (ii)Relational Operators, (iii)pre/post icreament //
+//5.Logical Operators -> (i) && Operator, (ii). || Operator //
+//6.if-else Condition. //
+//7.when Statement. //
+//8.Range Operator. //
+//9.Loops ->(i)while loop , (ii)do while loop  //
+//10.Functions //
+//11.Default Agruments(value).  // 
+//12.Function Overloading. //
+//13.Array. Date- 15/10/2024   // <>learning complete<>.(all concepts are clear).
+
+
+-->> Intermediate coding <<--
+//14.Object Orianted Programing. Date- 18/10/2024 //
+-:class ek blueprint hota hai jiske through hum objects bana sakte hain.
+
+//15.Primary and secondary constructor. Date- 23/10/2024 //
+//16.Inheritance. //
+//17.Overriding. //
+//18.Polymorphism. //
+//19.Abstract class.
+//20.Interface.
+//21.Type checking.
+//22.Visibility Modifiers.
+//23.Object Declaretion.
+//24.Companion Object.
+//25.Enum $ Sealed classes.
+//26.Null Safety.
+//27.Exception Handling.
+//28.Collections.
+//29.Higher Order Function.
+//30.Lamda Expression.
+//31.Collection Functions.
+//32.Extension Functions.
+//33.Scope Functions.
+//34.Generics.
+//35.Nested & Inner class.
+
+--->>> Advance coding <<<---
+//36. Coroutines.
+//37. Flow (Cold Streams).
+//38. Channels (Hot Streams).
+//39. Kotlin DSL (Domain Specific Language).
+//40. Annotations in Kotlin.
+//41. Kotlin Reflection.
+//42. Delegation.
+//43. Inline Functions & Reified Types.
+//44. Annotation Processing (KAPT).
+//45. Multiplatform Programming (KMP).
+//46. Kotlin Native.
+//47. Kotlin Symbol Processing (KSP).
