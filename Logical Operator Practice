@@ -1,0 +1,114 @@
+🔸 Task 1: Voting Eligibility
+val age = 20
+val isIndian = true
+➡️ Check karo agar user ka age 18 ya usse zyada hai aur wo Indian hai to print karo:
+"Eligible to vote", warna print karo: "Not eligible"
+👉 Use && operator.
+->  // voting eligiblity
+fun main() {
+    val name = "Aditiya kumar"
+    val age = 22
+    val isIndian = true
+    println("Details: $name. $age. isIndian: $isIndian")
+
+    if(age >= 18 && isIndian == true) {
+        println("$name: Eligible to vote")
+    } else {
+            println("$name: Not eligible")
+    }
+}.
+
+🔸 Task 2: Login Access
+val username = "admin"
+val password = "1234"
+➡️ Agar username "admin" ya password "1234" hai to print karo:
+"Login Successful", warna: "Login Failed"
+👉 Use || operator.
+->  // Login Access
+fun main() {
+    val username = "admin"
+    val password = 1234
+
+    val userName = "admin"
+    val passWord = 0
+
+    if(username == userName || password == passWord) {
+        println("Login Succesful")
+    } else {
+        println("Login failed")
+    }
+}.
+
+🔸 Task 3: Exam Result
+val maths = 45
+val science = 35
+➡️ Agar dono subjects me 35 ya usse zyada 
+marks aaye hain to print karo:
+"Pass", warna: "Fail"
+👉 Use && operator.
+->  // Exam Result
+fun main() {
+    val maths = 40
+    val science = 35
+
+    if(maths >= 35 && science >= 35) {
+        println("Pass")
+    } else {
+        println("Fail")
+    }
+}
+
+🔸 Task 4: Discount Check
+val isFestival = true
+val isMember = false
+➡️ Agar festival chal raha hai ya user member hai to print karo:
+"Discount Available", warna: "No Discount"
+👉 Use || operator.
+->  // Discount Check
+fun main() {
+    val isFestival = true
+    val isMember = false
+
+    if(isFestival || isMember) {
+        println("Discount Available")
+    } else {
+        println("No Discount")
+    }
+}
+
+🔸 Task 5: Perfect Student Checker
+val isAttendingRegularly = true
+val isDoingHomework = true
+➡️ Check karo agar dono true hain to print karo:
+"Perfect Student", warna: "Needs Improvement"
+👉 Use && operator.
+->  // Perfect Student
+fun main() {
+    val isAttendingRegularly = true
+    val isDoingHomework = false
+
+    if(isAttedingRegularly && isDoingHomework) {
+        println("Perfect Student")
+    } else {
+        println("Needs Improvement")
+    }
+}
+
+🔸 Task 6: Either Subject Pass
+val english = 33
+val hindi = 29
+➡️ Agar English ya Hindi me se kisi ek me 33 ya
+ zyada aaye hain to print karo:
+"Promoted", warna: "Fail"
+👉 Use || operator.
+->  // Either Subject Pass
+fun main() {
+    val english = 33
+    val hindi = 29
+
+    if(english >= 33 || hindi >= 33) {
+        println("Pass")
+    } else {
+        println("Fail")
+    }
+}
