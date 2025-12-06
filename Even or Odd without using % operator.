@@ -1,0 +1,16 @@
+// Task: Write a Kotlin program that checks if a number is even or odd without using the modulo operator (%). 
+fun main() {
+    val number = 22
+
+    val divisor = 2
+
+    val quotient = number / divisor
+    val minus = quotient * divisor
+    val reminder = number - minus 
+
+    if(reminder == 0) {
+        println("Input: $number is Even no")
+    } else {
+        println("Input: $number is Odd no")
+    }
+} 
