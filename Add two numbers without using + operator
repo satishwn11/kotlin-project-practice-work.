@@ -1,0 +1,14 @@
+//1. Add two numbers without using + operator.
+
+fun main() {
+var a = no1
+var b = no2
+
+while (b != 0) {
+    val carry = a and b
+    a = a xor b
+    b = carry shl 1
+}
+
+println(a)
+  }
