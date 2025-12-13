@@ -1,0 +1,11 @@
+//2. Multiply two numbers using only addition.
+fun main() {
+    var x = 6
+    val y = 9
+    var result = 0
+
+    for(i in 1..y) {
+        result = result + x
+    }
+    println(result)
+}
