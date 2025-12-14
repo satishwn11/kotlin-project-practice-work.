@@ -1,0 +1,13 @@
+// 3. Divide two numbers using repeated subtraction.
+fun main() {
+    val no1 = 4
+    val no2 = 13
+
+    var i = no2
+    var result = 0
+    while (i >= no1) {
+        i = i - no1
+        result += 1
+    }
+    println("$no2 / $no1 = $result")
+}
