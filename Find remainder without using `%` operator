@@ -7,5 +7,5 @@ fun main() {
     while(i >= no1) {
         i = i - no1
     }
-    println("reminder: $i")
+    println("remainder: $i")
 }
