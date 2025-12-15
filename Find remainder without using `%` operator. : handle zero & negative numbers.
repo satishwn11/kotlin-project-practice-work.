@@ -12,6 +12,7 @@ fun main() {
     if(no2 == i) {
         println("This operation not allowed")
     } else {
-        println("reminder: $i")
+        println("remainder: $i")
     }
+
 }
