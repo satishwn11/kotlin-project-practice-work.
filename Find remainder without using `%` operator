@@ -1,0 +1,11 @@
+//4. Find remainder without using `%` operator.
+fun main() {
+    val no1 = 6
+    val no2 = 38
+
+    var i = no2
+    while(i >= no1) {
+        i = i - no1
+    }
+    println("reminder: $i")
+}
