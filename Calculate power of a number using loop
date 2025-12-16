@@ -1,0 +1,11 @@
+// 5. Calculate power of a number (e.g., 2^5) using loop.
+fun main() {
+    val no = 2
+    val power = 5
+
+    var result = 1
+    for(i in 1..power) {
+        result = result * no
+    }
+    println(result)
+}
