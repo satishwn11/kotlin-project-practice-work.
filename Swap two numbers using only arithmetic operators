@@ -1,0 +1,11 @@
+// 6. Swap two numbers using only arithmetic operators.
+fun main() {
+    var no1 = 2
+    var no2 = 5
+
+    no1 = no1 + no2
+    no2 = no1 - no2
+    no1 = no1 - no2
+    println(no1)
+    println(no2)
+}
