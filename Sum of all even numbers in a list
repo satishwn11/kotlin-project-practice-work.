@@ -1,0 +1,7 @@
+// 7. Sum of all even numbers in a list.
+fun main() {
+    val numbers = listOf(1,2,3,4,5,6,7,8,9,10)
+    val evenNo = numbers.filter { it % 2 == 0 }.sum()
+     
+    println("Sum of Even numbers: $evenNo")
+}
