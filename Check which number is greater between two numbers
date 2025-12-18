@@ -1,0 +1,13 @@
+// 1. Check which number is greater between two numbers.
+fun main() {
+    val no1 = 50
+    val no2 = 53
+
+    if(no1 > no2) {
+        println("$no1 is greater number")
+    } else if(no2 > no1) {
+        println("$no2 is greater number")
+    } else {
+        println("Both are equal")
+    }
+}
