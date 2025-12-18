@@ -1,0 +1,7 @@
+// ## Arithmetic Operators Tasks
+// 10. Calculate area of a circle using radius.
+fun main() {
+    val radius = 5
+    val area = 3.14 * radius * radius
+    println("Area: $area")
+}
