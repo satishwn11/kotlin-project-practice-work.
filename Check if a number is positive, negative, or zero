@@ -1,0 +1,12 @@
+// 2. Check if a number is positive, negative, or zero.
+fun main() {
+    val no = +0
+
+    if(no > 0) {
+        println("$no is positive number")
+    } else if(no < 0) {
+        println("$no is negative number")
+    } else {
+        println("$no is zero")
+    }
+}
