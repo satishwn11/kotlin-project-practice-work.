@@ -1,0 +1,8 @@
+// 9. Convert Celsius to Fahrenheit using arithmetic formula.
+fun main() {
+    val celsius = 34
+    val fahrenheit = celsius * 9/5 + 32
+
+    println("Celsius: $celsius℃")
+    println("Fahrenheit: $fahrenheit℉")
+} 
