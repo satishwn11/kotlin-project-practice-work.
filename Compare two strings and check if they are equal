@@ -1,0 +1,11 @@
+// 3. Compare two strings and check if they are equal.
+fun main() {
+    val string1 = "hello"
+    val string2 = "hello"
+
+    if(string1 == string2) {
+        println("Both are equal")
+    } else {
+        println("Both are not equal")
+    }
+}
