@@ -1,0 +1,14 @@
+// Find a specific word in a list
+fun main() {
+    val words = listOf("apple" to 1,"ball" to 2,"cat" to 3,"dog" to 4)
+
+    val word = "ball"
+
+    val result = words.find { word == it.first }
+
+    if(result != null) {
+        println("Word found: $result")
+    } else {
+        println("Word not found")
+    }
+}
