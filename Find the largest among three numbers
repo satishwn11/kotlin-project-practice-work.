@@ -1,0 +1,16 @@
+//5. Find the largest among three numbers.
+fun main() {
+    val no1 = 8
+    val no2 = 16
+    val no3 = 16
+
+    when {
+        no1 > no2 && no1 > no3 -> println("$no1 is the greatest")
+        no2 > no1 && no2 > no3 -> println("$no2 is the greatest")
+        no3 > no1 && no3 > no2 -> println("$no3 is the greatest")
+        no1 == no2 && no1 > no3 -> println("$no1 & $no2 are equal and the largest numbers") 
+        no2 == no3 && no2 > no1 -> println("$no2 & $no3 are equal and the largest numbers")
+        no1 == no3 && no3 > no2 -> println("$no1 & $no3 are equal and the largest numbers")
+        else -> println("All are equal")
+    }
+}
