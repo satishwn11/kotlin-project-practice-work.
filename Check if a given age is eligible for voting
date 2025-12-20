@@ -1,0 +1,11 @@
+//4. Check if a given age is eligible for voting.
+fun main() {
+    val name = "Satish"
+    val age = 17
+
+    if(age >= 18) {
+        println("$name! You can vote")
+    } else {
+        println("$name! You are not eligible for voting")
+    }
+}
