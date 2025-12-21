@@ -1,0 +1,11 @@
+//9. Check if a character is vowel or consonant.
+fun main() {
+    val character = 'a'
+
+    val vowels = listOf('a','e','i','o','u')
+    if(character in vowels) {
+        println("The character $character is a vowel")
+    } else {
+        println("The character $character is a consonant")
+    }
+}
