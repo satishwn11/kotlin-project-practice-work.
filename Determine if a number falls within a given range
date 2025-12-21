@@ -1,0 +1,13 @@
+//6. Determine if a number falls within a given range.
+fun main() {
+    val no = 15
+
+    val startNo = 0
+    val endNo = 25
+
+    if(no in startNo..endNo) {
+        println("$no falls within the range $startNo to $endNo")
+    } else {
+         println("$no does not fall within the range $startNo to $endNo")
+    }
+}
