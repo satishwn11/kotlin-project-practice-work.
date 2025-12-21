@@ -1,0 +1,12 @@
+// ## Relational Operators Tasks
+// 10. Check if two numbers are both even.
+fun main() {
+    val no1 = 8
+    val no2 = 2
+
+    if(no1 % 2 == 0 && no2 % 2 == 0) {
+       println("Both numbers are even")
+    } else {
+        println("Both numbers are not even")
+    }
+}
