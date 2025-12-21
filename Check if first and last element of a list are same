@@ -1,0 +1,10 @@
+//7. Check if first and last element of a list are same.
+fun main() {
+    val list1 = listOf("apple","ball","cat","dog","apple")
+
+    if(list1.first() == list1.last()) {
+        println("The first and last element are the same")
+    } else {
+        println("The first and last element are not the same")
+    }
+}
