@@ -1,0 +1,12 @@
+// 1. Demonstrate difference between `a++` and `++a`.
+fun main() {
+    var a = 5
+
+    println("a:$a")
+    println("a++ : ${a++}")
+    println("now: $a")
+    println("---------")
+    println("a:$a")
+    println("++a : ${++a}")
+    println("now: $a")
+}
