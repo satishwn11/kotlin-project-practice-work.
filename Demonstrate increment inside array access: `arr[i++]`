@@ -1,0 +1,11 @@
+//7. Demonstrate increment inside array access: `arr[i++]`.
+fun main() {
+    val list = arrayOf(10,20,30,40,50)
+    var i = 0
+
+    println(list[i++])
+    println(i)
+
+    println(list[i++])
+    println(i)
+}
