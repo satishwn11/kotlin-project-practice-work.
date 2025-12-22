@@ -1,0 +1,12 @@
+//10. Create countdown timer using decrement.
+fun main() {
+    var x = 10
+
+    println("Countdown start")
+    while(x > 0) {
+        println(x)
+        Thread.sleep(1000)
+        x--
+    }
+    println("Done")
+}
