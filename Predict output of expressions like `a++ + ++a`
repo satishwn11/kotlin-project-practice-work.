@@ -1,0 +1,10 @@
+//2. Predict output of expressions like `a++ + ++a`.
+fun main() {
+    var a = 5
+
+    val aplus = a++ // 5
+    val plusa = ++a // 7
+    val result = aplus + plusa // 5 + 7 = 12
+
+    println(result)    
+}
