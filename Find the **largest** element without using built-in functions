@@ -1,0 +1,13 @@
+// Given array: `[3, 6, 1, 8, 4]`
+// Find the **largest** element without using built-in functions.
+fun main() {
+    val list = listOf(3,6,1,8,4,9)
+    
+    var largest = list.first()
+    list.forEach { it ->
+        if(it > largest) {
+            largest = it
+        }
+    }  
+    println(largest) 
+}
