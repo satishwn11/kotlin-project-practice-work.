@@ -1,0 +1,15 @@
+// Given array: `[10, 20, 30, 40, 50]`
+// Calculate the **sum of all elements at odd indexes**.
+fun main() {
+    val array = listOf(10, 20, 30, 40, 50)
+
+    var total = 0
+
+    array.forEachIndexed { index, value ->
+        if (index % 2 != 0) {
+            total += value
+        }
+    }
+
+    println(total)
+}
