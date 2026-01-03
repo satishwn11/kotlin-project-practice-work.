@@ -1,0 +1,21 @@
+import kotlin.collections.mutableListOf
+
+// Salary Filter
+fun main() {
+    val salary = listOf(8000, 12000, 15000, 9000, 22000, 5000, 18000,
+    15000,25000,180000,32000,4000,8000,16000)
+
+    val lowSalary = mutableListOf<Int>()
+    val mediumSalary = mutableListOf<Int>()
+    val highSalary = mutableListOf<Int>()
+
+    salary.forEach { it -> 
+        if(it <= 10000) lowSalary.add(it)
+        else if(it <= 18000) mediumSalary.add(it)
+        else highSalary.add(it)
+    }
+
+    println("Low Salary: $lowSalary")
+    println("Medium Salary: $mediumSalary")
+    println("High Salary: $highSalary")
+}
