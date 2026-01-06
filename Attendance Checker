@@ -1,0 +1,21 @@
+// Attendance Checker 
+fun main() {
+    val attendence = listOf("Satish Kumar" to 45,"Abay Singh" to 62,"Amir Khan" to 75,
+    "Suresh Yadav" to 33,"Umar khalid" to 90,"Sanjay Dutt" to 58, "Sumit Kumar" to 98)
+
+    val failed = mutableListOf<Any>()
+    val passed = mutableListOf<Any>()
+    val excellent = mutableListOf<Any>()
+
+    attendence.forEach {it ->
+    if(it.second < 45) failed.add(it)
+    else if(it.second <= 80) passed.add(it)
+    else if(it.second <= 100) excellent.add(it)
+        else println("Envalid Inputs")}
+
+    println(attendence)
+    println()
+    println("Failed students: $failed")
+    println("Passed students: $passed")
+    println("Escellent students: $excellent")
+}
