@@ -1,0 +1,41 @@
+// Attendance Checker 
+fun main() {
+    val attendence = listOf("Satish Kumar" to 45,"Abay Singh" to 62,"Amir Khan" to 75,
+    "Suresh Yadav" to 33,"Umar khalid" to 90,"Sanjay Dutt" to 58, "Sumit Kumar" to 98,
+    23,"Sanjay yadav")
+
+    val failed = mutableListOf<Any>()
+    val passed = mutableListOf<Any>()
+    val excellent = mutableListOf<Any>()
+    val invalidPair = mutableListOf<Any>()
+    val invalidObject = mutableListOf<Any>()
+
+    attendence.forEach {item ->
+
+        if(item is Pair<*, *>) {
+                val name = item.first
+                val percent = item.second
+
+               if(name is String && percent is Int) {
+                when {
+                    percent < 45 -> failed.add(item)
+                    percent < 80 -> passed.add(item)
+                    percent > 80 -> excellent.add(item)
+                    else -> println("Invalid percentage value: $item")
+                }
+               } else {
+                    invalidPair.add(item)
+               }
+        } else {
+            invalidObject.add(item)
+        }
+    }
+
+    println(attendence)
+    println()
+    println("Failed students: $failed")
+    println("Passed students: $passed")
+    println("Escellent students: $excellent")
+     println("Invalid pair data: $invalidPair")
+     println("Invalid object found: $invalidObject")
+}
