@@ -1,0 +1,18 @@
+import kotlin.text.toInt
+
+fun main() {
+    val username = "admin"
+    val password = 1234
+
+    println("Enter user name")
+    val username1 = readLine()
+
+    println("Enter password")
+    val password1 = readLine()
+
+    if(username == username1 && password == password1.toString().toInt()) {
+        println("Login successful")
+    } else {
+        println("Login failed")
+    }
+}
