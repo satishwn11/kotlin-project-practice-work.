@@ -1,0 +1,23 @@
+// shopping list
+fun main() {
+    val shopping = listOf(120, 80, 200, 40, 60)
+
+    val total = shopping.sum()
+    
+    val discountPercent = 10
+
+    if(total > 300) {
+       val discountPrice = applyDiscount(total, discountPercent)
+       println("Total bill with $discountPercent% discount: $discountPrice")
+    } else {
+        println("Total bill: $total")
+    }
+}
+
+fun applyDiscount(price: Int, discount: Int): Int {
+
+    val percent = price*discount / 100
+    
+    val discountPrice = price - percent
+    return discountPrice
+}
