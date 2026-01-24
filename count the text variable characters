@@ -1,0 +1,14 @@
+// count the text variable characters without build in count fun.
+fun main() {
+    val text = "satish  "
+    countChars(text.replace(" ", ""))
+}
+
+fun countChars(text: String) {
+    var count = 0
+    val chars = text.toCharArray()
+    chars.forEach { it ->
+        count++
+        }
+    println(count)
+}
