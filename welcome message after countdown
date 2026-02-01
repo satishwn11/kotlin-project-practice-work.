@@ -1,0 +1,16 @@
+import kotlin.concurrent.thread
+
+// welcome message after countdown
+fun main() {
+    println("What is your name?")
+    val name = readLine()
+    var timer = 3
+    
+    for(i in 1..3) {
+        print("\r$timer")
+        Thread.sleep(1000)
+        timer--
+    }
+    println()
+    println("Hello $name")
+}
