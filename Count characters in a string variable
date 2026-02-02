@@ -1,0 +1,9 @@
+fun main() {
+    val Sentence = "How are you?"
+
+    CountChars(Sentence)
+}
+
+fun CountChars(Sentence: String) {
+    println(Sentence.replace(" ", "").count())
+}
