@@ -1,0 +1,17 @@
+fun main() {
+    val sentence = "How are you Satish!   "
+
+    var i = 0
+    val x = ' '
+    var space = 0
+
+    for(ch in sentence) { 
+        if(ch != x) {
+            i++
+        } else {
+            space++
+        }
+    }
+     println("Characters: $i")
+     println("Spaces: $space")
+}
