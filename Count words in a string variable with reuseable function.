@@ -1,0 +1,23 @@
+fun main() {
+    val sentence = "ek do teen char    panch  12 "
+
+    val word = countWords(sentence)
+   println(word)
+}
+
+fun countWords(sentence:String): Int {
+    var word = 0
+    var count = false
+
+     for(ch in sentence) { 
+        if(ch != ' ') {
+            if(count == false) {
+            word++
+            count = true
+            }
+        } else {
+            count = false
+        }
+    }
+    return word
+}
