@@ -1,0 +1,14 @@
+fun main() {
+    val word = "satish"
+
+    var letter = false
+
+    for(ch in word) {
+        if(letter == false) {
+            print(ch.uppercase())
+            letter = true
+        } else {
+            print(ch)
+        }
+    }
+}
