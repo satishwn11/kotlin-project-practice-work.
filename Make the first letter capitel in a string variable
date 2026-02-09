@@ -1,0 +1,26 @@
+fun main() {
+    val word = "satish samad"
+
+   val result = MakeCapital(word)
+   println(result)
+}
+
+fun MakeCapital(word:String): String {
+    var fletter = false
+    var result = ""
+
+     for(ch in word) {
+        if(ch != ' ') {
+          if(!fletter) {
+           result = result + ch.uppercase()
+            fletter = true
+        } else {
+          result = result + ch
+        }
+        } else {
+          result += " "
+          fletter = false
+        }
+    }
+    return result
+}
