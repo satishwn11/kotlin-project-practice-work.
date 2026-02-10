@@ -1,0 +1,6 @@
+fun main() {
+  val string = "I like mango"
+  println("Before:$string")
+  val replace = string.replace("mango", "apple")
+  println("After:$replace")
+}
