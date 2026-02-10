@@ -1,0 +1,10 @@
+fun main() {
+  val string = "Satish Samad"
+  val list = listOf(2,3,4,3,8,9,1)
+
+  println(string.length)
+  println(string.count { it.isUpperCase() })
+
+  println(list.size)
+  println(list.count {it -> it > 4})
+}
