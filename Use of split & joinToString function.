@@ -1,0 +1,9 @@
+fun main() {
+    val str = "Hello World! How are you?"
+
+    val split = str.split(" ")
+    println(split)
+
+    val joint = split.joinToString(" ")
+    println(joint)
+}
