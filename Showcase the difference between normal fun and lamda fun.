@@ -1,0 +1,20 @@
+fun main() {
+    val normal = normalFun(2, 8)
+    println(normal)
+
+    val lamda = lamdaFun(2,8)
+    println(lamda)
+
+    print()
+
+    val greet1 = greet("Satish")
+    println(greet1) 
+}
+
+fun normalFun(a:Int,b:Int):Int {
+   return a + b
+}
+
+val lamdaFun = {a:Int, b:Int -> a + b }
+val print = {println("Hello World!")}
+val greet = {name:String -> "Hello $name"}
